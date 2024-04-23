@@ -1,0 +1,128 @@
+body{
+    background-size: cover;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.main{
+    background-image: url(images/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100%;
+}
+/* h1{
+        justify-content: center;
+        left: 44%;
+        top: 38%;
+        font-size: 200%;
+        font-weight: 300;
+        font-style: oblique;
+        position: absolute;
+        color: rgb(26, 26, 119);
+} */
+/* p{
+        justify-content: center;
+        left:45%;    
+        top:47%;
+        font-size: 200%;
+        font-weight: 300;
+        font-style: oblique;
+        position: absolute;
+        color: rgb(26, 26, 119);
+
+} */
+.main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   
+    
+} 
+
+.sub{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* .about{
+    /* margin: 60px; */
+    /* font-size: 150%; */ */
+/* } */
+/* .SKILLS {
+    height:100vh;
+    font-size: 150%;
+    margin: 60px; 
+ } */
+/* .PROJECT{
+font-size: 120%; */
+/* } */
+ /* .SKILLS {
+gap: 1rem;
+} */
+.SKILLS{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 4rem 4rem 4rem;
+ }
+.SKILLS li{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;;
+} 
+.SKILLS ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.SKILLS h1{
+    color: #81746E;
+}
+
+.About-Me{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.logo img{
+    width: 1.2rem;
+}
+.projects{
+    padding: 4rem;
+}
+.projects h1{
+    color: #81746E;
+    margin-bottom: 1rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin-bottom: 20px;
+}
+.btn-primary{
+    --bs-btn-bg: #81746E !important;
+    --bs-btn-border-color: #fff !important;
+    --bs-btn-hover-bg: #fff !important; 
+    --bs-btn-hover-border-color: #81746E !important;
+}
+.skills{
+    gap: 1rem;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    font-size: 3opx;
+
+}
